@@ -19,3 +19,11 @@
   }
 
 
+
+  .footback{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.84) -1.62%, rgba(0, 0, 0, 0.8) 42.02%, #000000 76.5%, #000000 100%);;
+  }
+
+  /* .footma {
+    bg-gradient-to-r from-[#292929]  to-[#010101]
+  } */

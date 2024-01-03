@@ -7,7 +7,7 @@ export default function Footer() {
 
     return (
         <>
-            <div className=" flex flex-row bg-gradient-to-r from-[#292929]  to-[#010101]  text-[#FFFFFF] gap-20 w-full pl-[301px] pt-[38px] h-[404px]">
+            <div className=" flex flex-row footback  text-[#FFFFFF] gap-20 w-full pl-[301px] pt-[38px] h-[404px]">
                 <div className="flex flex-col mt-[19]">
                     <Image
                     src="/logofoot.png"
