@@ -1,25 +1,30 @@
 'use client'
 
+import Image from "next/image"
 import Link from "next/link"
 
 export default function Footer() {
 
     return (
         <>
-            <div className=" flex flex-row bg-gradient-to-r from-[#444443]  to-black  text-gray-200 gap-24 w-full px-28 pt-12 h-[50vh]">
-                <div className="flex flex-col mt-4">
-                    <div className="flex text-blue-700">
-                        <h1 className="font-semibold  text-3xl">ONIN</h1>
+            <div className=" flex flex-row bg-gradient-to-r from-[#292929]  to-[#010101]  text-[#FFFFFF] gap-20 w-full pl-[301px] pt-[38px] h-[404px]">
+                <div className="flex flex-col mt-[19]">
+                    <Image
+                    src="/logofoot.png"
+                    width={186}
+                    height={62}
+                    alt="Logo"
+                    />
+                    <div className="mt-[15px] flex flex-col gap-6 font-medium text-base w-64">
+                    <p>Copyright@ 2023 reserved</p>
+                    <p>Terms of Service | Privacy Policy</p>
                     </div>
-                    <div><p>Copyright@ 2023 reserved</p></div>
-                    <div><p>
-                        Terms of Service | Privacy Policy</p></div>
 
                 </div>
-                <div className="flex gap-24">
-                <div className="flex flex-col gap-3 ">
-                    <div><h3 className="flex text-xl font-semibold">Products</h3></div>
-                    <ul className="flex flex-col gap-3">
+                <div className="flex gap-20">
+                <div className="flex flex-col gap-6 ">
+                    <div><h3 className="flex text-xl leading-6 font-bold">Products</h3></div>
+                    <ul className="flex flex-col gap-6 font-normal text-base leading-[19px] w-[120px]">
                         <li>
                             <Link href="/products">Product</Link>
                         </li>
@@ -38,9 +43,9 @@ export default function Footer() {
                     </ul>
 
                 </div>
-                <div className="flex flex-col gap-3">
-                 <div><h3 className="flex text-xl font-semibold">About us</h3></div>
-                 <ul className="flex flex-col gap-3" >
+                <div className="flex flex-col gap-6 ">
+                    <div><h3 className="flex text-xl leading-6 font-bold">About us</h3></div>
+                    <ul className="flex flex-col gap-6 font-normal text-base leading-[19px] w-[106px]">
                         <li>
                         <Link href="/about-gadget">About Gadget</Link>
                         </li>
@@ -55,9 +60,9 @@ export default function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className="flex flex-col gap-3">
-                 <div><h3 className="flex text-xl font-semibold">Resources</h3></div>
-                 <ul className="flex flex-col gap-3" >
+                <div className="flex flex-col gap-6 ">
+                    <div><h3 className="flex text-xl leading-6 font-bold">Resources</h3></div>
+                    <ul className="flex flex-col gap-6 font-normal text-base leading-[19px] w-[104px]">
                         <li>
                         <Link href="/help">Help Center</Link>
                         </li>
@@ -73,9 +78,9 @@ export default function Footer() {
                     </ul>
                 </div>
                 </div>
-                <div className=" flex flex-col gap-8 mt-4">
-                    <div><h3 className="flex text-xl">Get in Touch</h3></div>
-                     <div><p>Questions or feedback?</p>
+                <div className=" flex flex-col gap-[50px] mt-5 w-52">
+                    <div><h3 className="flex text-xl leading-6 font-bold">Get in Touch</h3></div>
+                     <div className=" flex flex-col gap-6 font-semibold text-base leading-5"><p>Questions or feedback?</p>
                      <p>We'd love to hear from you.</p></div>
 
                 </div>

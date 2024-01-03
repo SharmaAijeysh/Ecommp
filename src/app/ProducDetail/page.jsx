@@ -7,7 +7,7 @@ export default function ProductDetail() {
     return (
         <div className="bg-slate-200 p-8  w-[280px] h-[300px]">
             <Image
-                src="/compa.png"
+                src="/pngwing.png"
                 width={200}
                 height={200}
                 alt="Pictures of Computer"
