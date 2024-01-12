@@ -1,19 +1,26 @@
-import CarouselDefault from "./components/CarouselDefault/page";
+'use client';
+
+import Banner from "./components/Banner/page";
 import FLexOptionsList from "./components/FLexOptionsList/page";
 import FlexOptions from "./components/FlexOptions/page";
 import Maxpro from "./components/Maxpro/page";
-import Minipro from "./components/Minipro/page";
+import NavDownLinks from "./components/Navbar/NavDownLinks/page";
 import Options from "./components/Options/page";
 
+
+
 export default function Home() {
+
+
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-     <CarouselDefault/>
-      <FLexOptionsList/>
-      <FlexOptions/>
-      <Options/>
-      <Maxpro/>
-      <Minipro/>
+    <main className="flex flex-col">
+      <NavDownLinks/>
+      <FLexOptionsList />
+      <FlexOptions />
+      <Banner />
+      <Options />
+      <Maxpro /> 
     </main>
   )
 }

@@ -27,3 +27,35 @@
   /* .footma {
     bg-gradient-to-r from-[#292929]  to-[#010101]
   } */
+
+
+  .flexlist{
+    background-image: url('/laptop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .flexlista{
+    background-image: url('/gaming.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .flexlistb{
+    background-image: url('/speakers.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .flexlistc{
+    background-image: url('/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .bgFlex{
+    background-image: url('/frame.svg');
+  }
+
+
+  .searchBack{
+    background-position: 3% 50%;
+  }
