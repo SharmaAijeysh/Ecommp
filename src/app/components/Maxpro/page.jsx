@@ -1,4 +1,4 @@
-import ProductDetail from "@/app/ProducDetail/page";
+import ProductDetail from "@/app/components/ProducDetail/page";
 
 
 
