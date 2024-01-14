@@ -1,6 +1,6 @@
-"use client"
+'use client';
 
-import { ArrowDown, FacebookSvg, InstaSvg, TwitterSvg } from "./Utils/page";
+import { ArrowDown, FacebookSvg, InstaSvg, TwitterSvg } from "../Utils/page";
 
 export default function NavDownLinks() {
 

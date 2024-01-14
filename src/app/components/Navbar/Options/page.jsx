@@ -1,5 +1,5 @@
 "use client";
-import { Account, Cart, Compare, Wishlist } from "./Utils/page";
+import { Account,Compare, Cart, Wishlist } from "../Utils/page";
 
 
 export default function Options() {
@@ -10,7 +10,7 @@ export default function Options() {
 
     return (
         <div className="flex-row gap-2  lg:gap-6 flex">
-            <Compare />
+            <Compare/>
             <Wishlist />
             <Cart />
             <Account />
