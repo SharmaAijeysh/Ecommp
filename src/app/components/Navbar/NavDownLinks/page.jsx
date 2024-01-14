@@ -10,7 +10,7 @@ export default function NavDownLinks() {
     }
     
     return (
-        <div className=" bg-[#2468B7] p-4 h-[68px] text-white  font-[Poppins] font-normal text-base leading-4 flex  justify-between">
+        <div className=" bg-[#2468B7] p-4 h-[68px] hidden text-white  font-[Poppins] font-normal text-base leading-4 md:flex  justify-between">
             <div className="flex w-full ml-8 gap-4">
                 <button type="button" onMouseEnter={() =>setClickedLink("l1")} onClick={() => handleClick()} className="flex justify-center items-center gap-1"> Laptops & Desktops
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
