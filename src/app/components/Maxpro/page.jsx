@@ -47,8 +47,8 @@ export default function Maxpro() {
         ]
 
     return (
-        <div className="bg-white flex-col text-gray-800 justify-center items-center">
-            <div className="flex flex-wrap px-16 gap-6 py-12">
+        <div className="flex bg-white flex-col text-gray-800">
+            <div className="flex flex-wrap gap-6  justify-center items-center">
                {productHaru.map((productHaru)=> <div key={productHaru.id} className="bg-slate-200 p-8  w-[280px] h-[300px]">
                     <Image
                         src="/pngwing.png"
