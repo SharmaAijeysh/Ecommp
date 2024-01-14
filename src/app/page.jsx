@@ -3,7 +3,7 @@
 import CarousalHome from "./components/CarousalHome/page";
 import Categories from "./components/Categories/page";
 import Maxpro from "./components/Maxpro/page";
-import NavDownLinks from "./components/Navbar/NavDownLinks/page";
+import NavDownLinks from "./components/NavDownLinks/page";
 
 
 
