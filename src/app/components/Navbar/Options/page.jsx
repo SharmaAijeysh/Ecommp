@@ -1,5 +1,5 @@
 "use client";
-import { Account,Compare, Cart, Wishlist } from "../Utils/page";
+import { Account,Compare, Cart, Wishlist } from "../../Utilities/page";
 
 
 export default function Options() {
