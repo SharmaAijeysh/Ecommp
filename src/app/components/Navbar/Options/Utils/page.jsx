@@ -1,4 +1,6 @@
+"use cient";
 import Link from "next/link";
+
 
 
 
