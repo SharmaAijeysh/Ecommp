@@ -1,6 +1,6 @@
 'use client';
 
-export const productItems = 
+export const  productItems= 
 [
     {
         "id":1,

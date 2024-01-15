@@ -7,7 +7,7 @@ import { productItems } from "./Utils/page";
 
 
 export default function Maxpro() {
-    let productHaru = productItems;
+    const productHaru = productItems;
 
     const [displayRows, setDisplayRows] = useState(2);
 
