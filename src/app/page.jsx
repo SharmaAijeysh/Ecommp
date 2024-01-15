@@ -1,5 +1,4 @@
 'use client';
-
 import CarousalHome from "./components/CarousalHome/page";
 import Categories from "./components/Categories/page";
 import Maxpro from "./components/Maxpro/page";
