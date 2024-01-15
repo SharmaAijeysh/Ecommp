@@ -3,7 +3,7 @@ import './globals.css'
 import GlobalState from './context/page'
 import Navbar from './components/Navbar/page'
 import Footer from './components/Footer/page'
-
+import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -17,7 +17,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
      <body><GlobalState>
         <Navbar />
-        <main>{children}</main>
+        <main>
+          {children}
+          <Analytics/>
+        </main>
         <Footer/>
       </GlobalState>
       </body>
