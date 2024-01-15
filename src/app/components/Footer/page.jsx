@@ -7,7 +7,7 @@ export default function Footer() {
 
     return (
         <>
-            <div className=" flex flex-row footback  text-[#FFFFFF] gap-20 w-full pl-28  2xl:pl-[301px] pt-[38px] h-[404px]">
+            <div className=" flex flex-col  md:flex-row footback  text-[#FFFFFF] md:gap-20 w-full pl-4 md:pl-28  2xl:pl-[301px] pt-[38px] md:h-[404px]">
                 <div className="flex flex-col mt-[19]">
                     <Image
                     src="/logofoot.png"
@@ -21,8 +21,8 @@ export default function Footer() {
                     </div>
 
                 </div>
-                <div className="flex gap-20">
-                <div className="flex flex-col gap-6 ">
+                <div className="flex gap-6 md:gap-20">
+                <div className="flex flex-col gap-3 md:gap-6 ">
                     <div><h3 className="flex text-xl leading-6 font-bold">Products</h3></div>
                     <ul className="flex flex-col gap-6 font-normal text-base leading-[19px] w-[120px]">
                         <li>

@@ -35,7 +35,7 @@ export default function CarousalHome() {
 
     return (
         <div className="flex bg-[#F0F3FF]">
-            <div className="flex flex-col font-[Poppins] gap-[10px] p-4 ml-8 relative">
+            <div className="flex flex-col font-[Poppins] gap-[10px] p-4 ml-8 ">
                 {/* Render each slide with opacity transition based on the current slide index */}
                 {slides.map((slide, index) => (<div key={index} className={`flex flex-col w-[60%] ${index === currentSlide ? '' : 'hidden'}`}>
                     <h2 className=" font-medium text-5xl leading-[58px]"><span className="text-[#2468B7]">{slide}</span> your click.<br /> Transform your pick.</h2>
@@ -65,9 +65,9 @@ export default function CarousalHome() {
             </div>
 
 
-            <div className="w-[40%] relative">
+            <div className="w-[40%] ">
                 <Image src="/ttt.png" width={549} height={496} alt="Woman with Computer" />
-                <Image className="absolute right-14 bottom-16" src="/logofoot.png " width={130.5} height={43.5} alt="logo" />
+                <Image className=" right-2 bottom-16" src="/logofoot.png " width={130.5} height={43.5} alt="logo" />
             </div>
 
         </div>

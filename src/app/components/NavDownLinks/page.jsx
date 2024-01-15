@@ -3,14 +3,16 @@
 import { GlobalContext } from "@/app/context/page";
 import { useContext, useState } from "react";
 import NavDownUtils from "./utils/page";
+import NavDownLinksOptions from "./NavDownLinksOptions/page";
 
 export default function NavDownLinks() {
-    const { showNavModal, setShowNavmodal } = useContext(GlobalContext);
-    let batTick = showNavModal, classForNav;
+    const { showNavModal, showNavDownOptions } = useContext(GlobalContext);
+    let batTick = showNavModal;
 
 
 
     return (
+        <>
         <div className="flex">
         <div className="hidden md:flex w-full">
             <NavDownUtils  />
@@ -19,5 +21,7 @@ export default function NavDownLinks() {
         {batTick == true && <NavDownUtils/>}
         </div>
         </div>
+        {showNavDownOptions &&<NavDownLinksOptions/>}
+        </>
     )
 }
