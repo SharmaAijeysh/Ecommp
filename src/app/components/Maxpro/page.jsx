@@ -2,12 +2,156 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { productItems } from "./Utils/page";
 
 
 
 export default function Maxpro() {
-    const productHaru = productItems;
+    const productHaru = [
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        },
+        {
+            "id":1,
+            "name":"$1300.00",
+            "nameDetail": "Laptop HP EliteBook 840G1 Intel Core i5",
+            "detail":"AMD Radeon HD 8750M, with 1GB dedicated DDR5 video memory"
+        }
+    ]
 
     const [displayRows, setDisplayRows] = useState(2);
 
